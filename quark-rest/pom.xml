@@ -6,13 +6,11 @@
         <artifactId>quark-parent</artifactId>
         <groupId>com.quark</groupId>
         <version>1.0-SNAPSHOT</version>
-
     </parent>
-
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.quark</groupId>
     <artifactId>quark-rest</artifactId>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
     <dependencies>
 
@@ -58,4 +56,14 @@
             <artifactId>spring-messaging</artifactId>
         </dependency>
     </dependencies>
+
+    <build>
+        <finalName>quark-rest</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 </project>
