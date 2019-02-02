@@ -6,13 +6,12 @@
         <artifactId>quark-parent</artifactId>
         <groupId>com.quark</groupId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../quark-parent/pom.xml</relativePath>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.quark</groupId>
     <artifactId>quark-portal</artifactId>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
     <dependencies>
         <dependency>
