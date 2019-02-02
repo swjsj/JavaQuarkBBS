@@ -7,6 +7,6 @@ package com.quark.rest.utils;
 public class Constants {
     //Upload常量
     public static final String UPLOAD_PATH = "D:\\home\\images\\upload\\";
-    public static final String STATIC_URL ="http://127.0.0.1/images/upload/";
+    public static final String STATIC_URL ="http://120.133.22.231:8097/images/upload/";
 
 }
